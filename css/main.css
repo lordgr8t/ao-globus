@@ -803,7 +803,7 @@ footer{
 	margin-left: -30%;
 
 }
-.modalcont2 button{
+.modalcont2 button {
 	background: #0A2752;
 	box-shadow: 8px 8px 40px rgba(255, 255, 255, 0.25);
 	border-radius: 2px;
@@ -822,8 +822,44 @@ footer{
 	font-size: 14px;
 	margin-top: 10px;
 }
-
-
+.secondmodal{
+	font-family: Intro Book;
+	padding: 40px;
+	text-align: center;
+	height: auto;
+	width: 80%;
+}
+}
+.secondmodal button{
+	background: #0A2752;
+	box-shadow: 8px 8px 40px rgba(255, 255, 255, 0.25);
+	border-radius: 2px;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	line-height: 18px;
+	width: 100%;
+	height: 40px;
+	margin: 0 auto;
+}
+.secondmodal .thx{
+	font-size: 18px !important;
+	line-height: 18px !important;
+}
+.secondmodal .thx_txt{
+	font-size: 16px;
+	line-height: 18px;
+	width: 80%;
+	width: 67%;
+	margin: 0 auto;
+	font-weight: 300;
+	color: #828282;
+}
+.secondmodal .btn-primary{
+	background: #0A2752;
+	box-shadow: 8px 8px 40px rgba(255, 255, 255, 0.25);
+	border-radius: 2px;
+}
 
 /*BASKET PAGE*/
 .result_r{

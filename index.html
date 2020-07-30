@@ -75,7 +75,7 @@
 											<span class="signin" id="signin_h">Вход</span>
 											<div class="tab-content modalcont1">
 												<input class="mt-4" type="email" id="email" placeholder="E-mail">
-												<input class="mt-4" type="email" id="email" placeholder="Пароль">
+												<input class="mt-4" type="pass" id="pass" placeholder="Пароль">
 												<button class="mt-5 mb-2" type="signin">Войти</button>
 												<a  href="#">Забыли пароль?</a>
 											</div>			
@@ -83,15 +83,17 @@
 										<li class="col-6 text-center tab">
 											<span class="signup" id="signup_h">Регистрация</span>
 											<div class="tab-content modalcont2">
-												<input class="mt-4" type="email" id="email" placeholder="Название организации">
-												<input class="mt-4" type="email" id="email" placeholder="ИНН">
-												<input class="mt-4" type="email" id="email" placeholder="ОГРН">
-												<input class="mt-4" type="email" id="email" placeholder="БИК">
-												<input class="mt-4" type="email" id="email" placeholder="Расчетный счет">
+												<input class="mt-4" type="name_org" id="name_org" placeholder="Название организации">
+												<input class="mt-4" type="inn" id="inn" placeholder="ИНН">
+												<input class="mt-4" type="orgn" id="orgn" placeholder="ОГРН">
+												<input class="mt-4" type="bik" id="bik" placeholder="БИК">
+												<input class="mt-4" type="r_chek" id="r_chek" placeholder="Расчетный счет">
 												<input class="mt-4" type="email" id="email" placeholder="E-mail">
-												<input class="mt-4" type="email" id="email" placeholder="Пароль">
-												<button class="mt-4" type="signin">Зарегистрироваться</button>
+												<input class="mt-4" type="pass" id="pass" placeholder="Пароль">
+												<button class="mt-4 btn btn-primary" type="button signun" id="signun" data-toggle="modal" data-target="#exampleModalCenter" data-dismiss="modal">Зарегистрироваться</button>
 												
+
+
 											</div>
 										</li>
 									</ul>
@@ -739,6 +741,19 @@
 
 								
 							</div>
-
+							<!-- modal thx 4 register -->
+							<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered" role="document">
+									<div class="modal-content secondmodal">
+										
+										<div class="modal-body">
+											<img src="img/smile.svg">
+											<div class="thx mt-4 mb-3">Спасибо за регистрацию</div>
+											<div class="thx_txt mb-5">Мы свяжемся с вами в ближайшее время для подтверждения</div>
+											<button class="btn btn-primary" type="button" id="onmain" data-dismiss="modal">Перейти на главную</button>
+										</div>										
+									</div>
+								</div>
+							</div>
 						</body>
 						</html>
