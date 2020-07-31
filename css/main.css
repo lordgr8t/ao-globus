@@ -67,7 +67,6 @@ hr{
 .topheader_bg ul{
 	padding-left: 15px;
 }
-
 .topheader_bg a:hover{
 	color: #000;
 }
@@ -96,6 +95,10 @@ hr{
 .active_lng{
 	color: #0A2752 !important;
 }
+.centerheader .row{
+	flex-wrap: nowrap !important;
+}
+
 
 /*center header*/
 .logo{
@@ -156,6 +159,7 @@ form.search::after {
 	color: #0A2752;
 	margin-top: 4%;
 	width: 10%;
+	white-space: nowrap;
 }
 
 /*bottom header*/

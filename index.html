@@ -44,16 +44,16 @@
 			<div class="container">
 				<div class="d-flex justify-content-between flex-nowrap">
 					<ul class="row">
-						<li class="mr-3"><a href="#">О компании</a> </li>
-						<li class="mr-3"><a href="#">Новости</a></li>
-						<li class="mr-3"><a href="#">Технологии</a></li>
-						<li class="mr-3"><a href="#">Партнеры</a></li>
-						<li><a href="#">Контакты</a></li>
+						<li class=""><a href="#">О компании</a> </li>
+						<li class="ml-3"><a href="#">Новости</a></li>
+						<li class="ml-3"><a href="#">Технологии</a></li>
+						<li class="ml-3"><a href="#">Партнеры</a></li>
+						<li class="ml-3"><a href="#">Контакты</a></li>
 					</ul>
 					<ul class="row">
-						<li class="topheader_mail mr-4"><a href="info@ao-globus.ru">info@ao-globus.ru</a></li>
-						<li class="topheader_phone mr-4"> <a href="88005555555">8 800 555-55-55</a></li>
-						<li><a class="active_lng mr-2" href="#">RU</a><span><a href="#">EN</a></span></li>
+						<li class="topheader_mail "><a href="info@ao-globus.ru">info@ao-globus.ru</a></li>
+						<li class="topheader_phone  ml-4"> <a href="88005555555">8 800 555-55-55</a></li>
+						<li><a class="active_lng ml-4" href="#">RU</a><span class="ml-2"><a href="#">EN</a></span></li>
 					</ul>
 				</div>
 			</div>
@@ -62,57 +62,23 @@
 		<div class="centerheader">
 			<div class="container">
 				<div class="row">
-					<a href="#" class="logo col-3 adaptation_none"><img src="img/logo.svg" alt=""></a>
-					<form class="col-5 search adaptation_none" action="#">
+					
+					<a href="#" class="logo  adaptation_none"><img src="img/logo.svg" alt=""></a>
+					
+					<form class="col-6 mr-5 search adaptation_none" action="#">
 						<input type="text" placeholder="Поиск" name="search">
 						<button type="submit">Найти</button>
 					</form>
-					<button style="border:none; background: #fff;" type="button" data-toggle="modal" data-target="#exampleModal">
-						<a href="#" class="col-1 user adaptation_none"><img class="" src="img/user.svg" alt=""></a>
+					
+					<button class="ml-5 " style="border:none; background: #fff;" type="button" data-toggle="modal" data-target="#exampleModal">
+						<a href="#" class="user adaptation_none"><img src="img/user.svg"></a>
 					</button>
-					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-						<div class="modal-dialog" role="document">
-							<div class="modal-content">
-								<div class="modal-body" id="modal-body">
-									<ul class="tabs row" style="margin-left: -70px">
-										<li class="col-6 text-center tab">
-											<span class="signin" id="signin_h">Вход</span>
-											<div class="tab-content modalcont1">
-												<input class="mt-4" type="email" id="email" placeholder="E-mail">
-												<input class="mt-4" type="pass" id="pass" placeholder="Пароль">
-												<button class="mt-5 mb-2" type="signin">Войти</button>
-												<a  href="#">Забыли пароль?</a>
-											</div>			
-										</li>
-										<li class="col-6 text-center tab">
-											<span class="signup" id="signup_h">Регистрация</span>
-											<div class="tab-content modalcont2">
-												<input class="mt-4" type="name_org" id="name_org" placeholder="Название организации">
-												<input class="mt-4" type="inn" id="inn" placeholder="ИНН">
-												<input class="mt-4" type="orgn" id="orgn" placeholder="ОГРН">
-												<input class="mt-4" type="bik" id="bik" placeholder="БИК">
-												<input class="mt-4" type="r_chek" id="r_chek" placeholder="Расчетный счет">
-												<input class="mt-4" type="email" id="email" placeholder="E-mail">
-												<input class="mt-4" type="pass" id="pass" placeholder="Пароль">
-												<button class="mt-4 btn btn-primary" type="button signun" id="signun" data-toggle="modal" data-target="#exampleModalCenter" data-dismiss="modal">Зарегистрироваться</button>
-												
 
-
-											</div>
-										</li>
-									</ul>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-					<a href="#" class="col-1 basket  adaptation_none"><img src="img/basket.svg" alt=""></a>
-
-					<a href="#" class="col-2 money  adaptation_none">20 020 070₽</a>
+					<a href="#" class="basket ml-1 adaptation_none"><img src="img/basket.svg"></a>
+					<a href="#" class="money ml-1 adaptation_none">20 020 070₽</a>
+					
 				</div>
 			</div>
-
-
 
 
 			<hr class="adaptation_none">
@@ -745,6 +711,42 @@
 
 								
 							</div>
+
+							<!-- modal  registr -->
+							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-body" id="modal-body">
+											<ul class="tabs row" style="margin-left: -70px">
+												<li class="col-6 text-center tab">
+													<span class="signin" id="signin_h">Вход</span>
+													<div class="tab-content modalcont1">
+														<input class="mt-4" type="email" id="email" placeholder="E-mail">
+														<input class="mt-4" type="pass" id="pass" placeholder="Пароль">
+														<button class="mt-5 mb-2" type="signin">Войти</button>
+														<a  href="#">Забыли пароль?</a>
+													</div>			
+												</li>
+												<li class="col-6 text-center tab">
+													<span class="signup" id="signup_h">Регистрация</span>
+													<div class="tab-content modalcont2">
+														<input class="mt-4" type="name_org" id="name_org" placeholder="Название организации">
+														<input class="mt-4" type="inn" id="inn" placeholder="ИНН">
+														<input class="mt-4" type="orgn" id="orgn" placeholder="ОГРН">
+														<input class="mt-4" type="bik" id="bik" placeholder="БИК">
+														<input class="mt-4" type="r_chek" id="r_chek" placeholder="Расчетный счет">
+														<input class="mt-4" type="email" id="email" placeholder="E-mail">
+														<input class="mt-4" type="pass" id="pass" placeholder="Пароль">
+														<button class="mt-4 btn btn-primary" type="button signun" id="signun" data-toggle="modal" data-target="#exampleModalCenter" data-dismiss="modal">Зарегистрироваться</button>
+													</div>
+												</li>
+											</ul>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
 							<!-- modal thx 4 register -->
 							<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered" role="document">
