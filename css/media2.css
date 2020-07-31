@@ -35,6 +35,24 @@
 	.footer_search button{
 		margin-top: 0;
 	}
+	.preview_btn {
+		border: solid 1px #fff;
+		border-radius: 2px;
+		text-align: center;
+		max-width: 110px;
+		height: 33px;
+		padding-top: 10px;
+		font-size: 16px;
+		line-height: 14px;
+	}
+	.preview_title {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.preview_text {
+		font-size: 14px;
+		line-height: 16px;
+	}
 }
 @media (max-width: 768px) {
 	.navbar-container{
@@ -73,10 +91,12 @@
 		justify-content: space-between !important;
 		width: 100% !important;
 	}
-	.slider_info{
+	.carousel-caption{
 		text-align: center;
-		margin-left: 25%;
-		top: 25%;
+		margin: auto;
+		right: 10%;
+		width: 85%;
+		bottom: 15%;
 	}
 	.preview_title{
 		font-size: 15px;
@@ -84,9 +104,10 @@
 		margin-left: -16px;
 	}
 	.preview_text{
-		font-size: 12px;
-		line-height: 14px;
+		font-size: 12px !important;
+		line-height: 14px !important;
 		width: 200px;
+		margin: 0 auto;
 	}
 	.preview_btn{
 		font-size: 13px;
@@ -95,19 +116,14 @@
 		max-height: 30px;
 		padding-top: 8px;
 		margin: 0 auto;
-		text-align: left;
+		text-align: center;
+		margin-top: 25px;
 	}
 	.preview_title_box{
 		font-size: 15px;
 		line-height: 15px;
 	}
-	.previewbox img{
-		margin: 0;
-	}
-	.previewbox_info {
-		text-align: center;
-		margin: 15% 0 0 40% !important;
-	}
+	
 	.preview_inner{
 		display: block;
 	}
@@ -191,12 +207,19 @@
 	}
 	.addclone .simprod_item img {
 		max-width: 95%;
-	
+
 	}
 
 }
 
 @media (max-width: 576px) {
+	.carousel-caption{
+		text-align: center;
+		margin: auto;
+		right: 10%;
+		width: 85%;
+		bottom: 10%;
+	}
 	.ph_bgm img{
 		margin-top: 5px;
 	}
@@ -246,8 +269,7 @@
 	}
 	.carousel-indicators li {
 		width: 20px !important;
-		height: 2px !important;
-		margin-bottom: -16px;
+		height: 2px !important;		
 	}
 	.previewbox_info {
 		margin: 10% 0 0 27% !important;

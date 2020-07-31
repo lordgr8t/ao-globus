@@ -214,24 +214,15 @@ form.search::after {
 
 /*preview container with slider*/
 /*slider*/
+ol{
+	margin-bottom: 0rem !important;
+}
 .carousel-indicators li{
 	width: 20px !important;
 	height: 2px !important;
+
 }
-.slider_info {
-	max-width: 366px;
-	max-height: 207px;
-	position: absolute;
-	top: 128px;
-	left: 70px;
-	color: #fff;
-}
-.slider_info a{
-	color: #fff;
-	font-family: Intro Book;	
-	font-size: 18px;
-	line-height: 18px;
-}
+
 .preview_title {
 	font-family: Intro Bold;
 	font-weight: bold;
@@ -248,12 +239,26 @@ form.search::after {
 .preview_btn {
 	border: solid 1px #fff;
 	border-radius: 2px; 
-	max-width: 127px;
+	text-align: center;
+	max-width: 130px;
 	height: 40px;
-	padding: 10px 0 0 14px;
+	padding-top: 10px;
 }
 .slider{
 	margin-top: 20px;
+}
+
+.carousel-caption {
+    position: absolute;
+    /* right: 10%; */
+    bottom: 23%;
+    left: 6%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    width: 33%;
 }
 
 /*previewbox*/
