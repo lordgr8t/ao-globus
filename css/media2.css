@@ -1,7 +1,7 @@
 .topheader_bg{
 	background: #F2F2F2 !important;
 	height: 40px;
-	padding: 0.3%;
+	padding-top: 0.4%;
 }
 @media (max-width: 1130px) {
 	.topheader_r a{
