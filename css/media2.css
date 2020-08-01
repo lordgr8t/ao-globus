@@ -33,7 +33,7 @@
 		width: 50%;
 	}
 	.footer_search button{
-		margin-top: 0;
+		margin-top: 1;
 	}
 	.preview_btn {
 		border: solid 1px #fff;
@@ -287,5 +287,8 @@
 	}
 	.social_icons {
 		width: 65% !important;
+	}
+	.footer_search button {
+		 margin-top: 0 !important; 
 	}
 }
