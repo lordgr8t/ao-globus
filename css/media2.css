@@ -209,7 +209,15 @@
 		max-width: 95%;
 
 	}
-
+	.previewbox img{
+		margin-top: 0 !important;
+	}
+	.previewbox_info{
+		margin: 0;
+		width: 96% !important;
+		text-align: center;
+		margin-top: 15%;
+	}
 }
 
 @media (max-width: 576px) {
@@ -218,7 +226,7 @@
 		margin: auto;
 		right: 10%;
 		width: 85%;
-		bottom: 10%;
+		bottom: 0;
 	}
 	.ph_bgm img{
 		margin-top: 5px;
@@ -226,9 +234,6 @@
 	.slider_info {
 		margin-left: 17%;
 		top: 18%;
-	}
-	.previewbox_info {
-		margin: 20% 0 0 40% !important;
 	}
 	.catalogboxtitle{
 		font-size: 12px;
@@ -270,9 +275,6 @@
 	.carousel-indicators li {
 		width: 20px !important;
 		height: 2px !important;		
-	}
-	.previewbox_info {
-		margin: 10% 0 0 27% !important;
 	}
 	.smallline {
 		width: 23% !important;

@@ -220,9 +220,10 @@ ol{
 .carousel-indicators li{
 	width: 20px !important;
 	height: 2px !important;
-
 }
-
+.carousel-inner img{
+	min-height: 168px;
+}
 .preview_title {
 	font-family: Intro Bold;
 	font-weight: bold;
@@ -267,6 +268,7 @@ ol{
 	max-height: 306.60px;
 	width: 100%;
 	margin-top: 1rem;
+	min-height: 180px;
 }
 .previewbox_info {
 	position: absolute;
