@@ -1,3 +1,8 @@
+/*если подключать bootstrap cdn
+.container{
+	max-width: 1140px !important;
+}
+*/
 html {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -31,7 +36,7 @@ button:active, button:focus {outline: none;}
 	font-family: Intro Light; 
 	src: url(../fonts/Intro-Light.otf);
 }
-ul {
+ul{
 	list-style: none;
 }
 a{
@@ -45,8 +50,8 @@ hr{
 	margin: 0;
 	padding: 0;
 }
-.container{
-	max-width: 1140px !important;
+ol{
+	margin-bottom: 0rem !important;
 }
 .book{
 	font-family: Intro Book !important; 
@@ -59,16 +64,13 @@ hr{
 }
 /*HEADER*/
 /*topheader*/
+.centerheader .row{
+	flex-wrap: nowrap !important;
+}
 .topheader_bg a{
 	color: #828282;
 	font-family: Intro Book;
 	font-size: 14px;
-}
-.topheader_bg ul{
-	padding-left: 15px;
-}
-.topheader_bg a:hover{
-	color: #000;
 }
 .topheader_mail a::before{
 	content: ""; 
@@ -95,10 +97,6 @@ hr{
 .active_lng{
 	color: #0A2752 !important;
 }
-.centerheader .row{
-	flex-wrap: nowrap !important;
-}
-
 
 /*center header*/
 .logo{
@@ -159,7 +157,6 @@ form.search::after {
 	color: #0A2752;
 	margin-top: 4%;
 	width: 10%;
-	white-space: nowrap;
 }
 
 /*bottom header*/
@@ -211,18 +208,15 @@ form.search::after {
 .dropdown-menu{
 	margin: 0;
 }
+.navbar-container button{
+	border:none;
+} 
 
 /*preview container with slider*/
 /*slider*/
-ol{
-	margin-bottom: 0rem !important;
-}
 .carousel-indicators li{
 	width: 20px !important;
 	height: 2px !important;
-}
-.carousel-inner img{
-	min-height: 168px;
 }
 .preview_title {
 	font-family: Intro Bold;
@@ -239,8 +233,8 @@ ol{
 }
 .preview_btn {
 	border: solid 1px #fff;
-	border-radius: 2px; 
-	text-align: center;
+	border-radius: 2px;
+	text-align: center; 
 	max-width: 130px;
 	height: 40px;
 	padding-top: 10px;
@@ -248,46 +242,53 @@ ol{
 .slider{
 	margin-top: 20px;
 }
-
-.carousel-caption {
-    position: absolute;
-    /* right: 10%; */
-    bottom: 23%;
-    left: 6%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: left;
-    width: 33%;
-}
-
-/*previewbox*/
-
-.previewbox img{
-	max-height: 306.60px;
-	width: 100%;
-	margin-top: 1rem;
-	min-height: 180px;
-}
-.previewbox_info {
+.carousel-caption{
 	position: absolute;
-	margin: 25% 0 0 3%;
-}
-.preview_title_box {
-	font-family: Intro Bold;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 30px;
-	line-height: 30px;
+	bottom: 23%;
+	left: 6%;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	color: #fff;
-	margin-bottom: 30px;
+	text-align: left;
+	width: 33%;
 }
 .preview_btn {
 	color: #fff;
 	font-family: Intro Book;	
 	font-size: 18px;
 	line-height: 18px;
+}
+/*previewbox*/
+.previewbox{
+	width: 49%;
+	height: 320px;
+	background-image: url(../img/previewimg1.png);
+}
+.previewbox_title{
+	font-family: Intro Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+.previewbox_btnn{
+	font-family: Intro Book;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 18px;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 2px;
+	height: 40px;
+	max-width: 130px;
+	padding-left: 10px;
+}
+.previewbox_inside{
+	margin: 25% 0 0 10%;
 }
 
 /*catalog*/
@@ -328,8 +329,8 @@ ol{
 }
 .simprod_item{
 	max-width: 100%;
-	height: 100%;
-	margin-bottom: 7px;
+	height: 431px;
+	margin-bottom: 15px;
 	font-family: Intro Book;
 }
 .simprod_item img{
@@ -339,12 +340,19 @@ ol{
 	background: #FFFFFF;
 	box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.1);
 	border-radius: 2px;
+
 }
 .cart_inner{
 	display: none !important;
 }
 .simprod_item:hover .cart_inner{
 	display: block !important;
+	animation: simprod_item_anim 0.6s;
+}
+
+@keyframes simprod_item_anim{
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
 }
 .simprod_item_name{
 	font-size: 16px;
@@ -541,6 +549,8 @@ footer{
 
 
 /*CATALOG PAGE grid*/
+
+
 
 .product_filters_parameters{
 	height: 364px;
@@ -757,7 +767,7 @@ footer{
 
 .tab span.selected{
 	border-bottom: solid 1px #0A2752;
-	
+
 }
 .signin.selected{
 	padding: 7% 41%;
@@ -814,7 +824,7 @@ footer{
 	margin-left: -30%;
 
 }
-.modalcont2 button {
+.modalcont2 button{
 	background: #0A2752;
 	box-shadow: 8px 8px 40px rgba(255, 255, 255, 0.25);
 	border-radius: 2px;
@@ -833,44 +843,8 @@ footer{
 	font-size: 14px;
 	margin-top: 10px;
 }
-.secondmodal{
-	font-family: Intro Book;
-	padding: 40px;
-	text-align: center;
-	height: auto;
-	width: 100%;
-}
-}
-.secondmodal button{
-	background: #0A2752;
-	box-shadow: 8px 8px 40px rgba(255, 255, 255, 0.25);
-	border-radius: 2px;
-	border: none;
-	color: #fff;
-	font-size: 18px;
-	line-height: 18px;
-	width: 100%;
-	height: 40px;
-	margin: 0 auto;
-}
-.secondmodal .thx{
-	font-size: 18px !important;
-	line-height: 18px !important;
-}
-.secondmodal .thx_txt{
-	font-size: 16px;
-	line-height: 18px;
-	width: 80%;
-	width: 67%;
-	margin: 0 auto;
-	font-weight: 300;
-	color: #828282;
-}
-.secondmodal .btn-primary{
-	background: #0A2752;
-	box-shadow: 8px 8px 40px rgba(255, 255, 255, 0.25);
-	border-radius: 2px;
-}
+
+
 
 /*BASKET PAGE*/
 .result_r{
@@ -1043,4 +1017,199 @@ footer{
 	font-size: 14px;
 	line-height: 14px;
 	color: #828282;
+}
+
+/*news page*/
+.lowcontainer{
+	max-width: 754px;
+	margin: 0 auto;
+}
+.newsitem_p p{
+	font-family: Intro Book;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25px;
+	color: #333333;
+}
+.partners img{
+	width: 100%;
+}
+.partners{
+	margin-bottom: 33px;
+}
+
+/*contact page*/
+
+.lowcontainer .cont_title{
+	font-family: Intro Book;
+	font-size: 20px;
+	margin-top: 20px;
+	color: #0A2752;
+	margin-bottom: 20px;
+} 
+.contact_cols span ,.contpage_req .colsspan{
+	font-family: Intro Book;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 18px;
+	color: #828282;
+} 
+.contact_cols{
+	max-width: 367px;
+	height: 136px;
+	background: #FFFFFF;
+	box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+}
+.contpage_req{
+	background: #FFFFFF;
+	box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.1);
+	max-height: 271px;
+	width: 100%;
+	padding: 15px;
+}
+.contpage_req .cont_title{
+	margin-top: 0;
+}
+.contpage_req .colsspan{
+	line-height: 20px;
+}
+.contpage_req img{
+	position: relative;
+	margin-top: -10%;
+	margin-left: 78%;
+}
+
+.contpage_order{
+	background: #FFFFFF;
+	box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	padding: 30px 40px 30px 40px;
+}
+.contpage_order input{
+	width: 326px;
+	background: rgba(242, 242, 242, 0.4);
+	border: 1px solid #F2F2F2;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family: Intro Book;
+	min-height: 40px;
+}
+.contpage_order button{
+	width: 100%;
+	text-align: center;
+	background: #0A2752;
+	box-shadow: 8px 8px 40px rgba(255, 255, 255, 0.25);
+	border-radius: 2px;
+	height: 40px;
+	font-family: Intro Book;
+	font-size: 18px;
+	color: #FFF;
+	border: none;
+}
+.mapsfix{
+	margin: 0 auto;
+}
+
+/*about page*/
+
+.aboutpage span{
+	font-family: Intro Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 25px;
+	color: #0A2752;
+}
+.aboutpage p, .aboutpage ul {
+	font-family: Intro Book;
+}
+.aboutpage ul{
+	padding: 0;
+}
+
+/*thx page*/
+.ultralowcontainer{
+	max-width: 366px;
+	margin: 0 auto;
+}
+.bigthx{
+	font-family: Intro Book;
+	font-size: 18px;
+	line-height: 18px;
+	color: #333;
+}
+.priceofthx{
+	font-family: Intro Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 16px;
+	color: #828282;
+}
+.pricethx{
+	font-family: Intro Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 37px;
+	color: #0A2752;
+}
+.dowloaderprice{
+	font-family: Intro Book;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 16px;
+	color: #828282;
+}
+
+/*ACC page*/
+.pickaccorhist div{
+	background: #FFFFFF;
+	box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.1);
+	max-width: 270px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	font-family: Intro Book;
+	font-size: 16px;
+	line-height: 16px;
+	color: #333333;
+	padding-left: 15px;
+}
+.pickaccorhist .active_paoh{
+	background: #0A2752;
+	color: #fff;
+}
+.accpage_style div{
+	font-family: Intro Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	color: #333333;
+	margin-bottom: 5px;
+}
+.accpage_style span{
+	color: #ec5656;
+}
+.accpage_style input{
+	background: rgba(242, 242, 242, 0.4);
+	border: 1px solid #F2F2F2;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family: Intro Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 16px;
+	color: #828282;
+	height: 40px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+.m0-auto div{
+	margin: 0 auto;
 }

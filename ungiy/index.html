@@ -42,20 +42,21 @@
 
 	<!-- header -->
 	<header class="header">
+		
 		<div class="topheader_bg adaptation_none">
-			<div class="container ">
-				<div class="topheader row">
-					<ul class="topheader_l col-7 row text-center">
-						<li class="col"><a href="#">О компании</a> </li>
-						<li class="col"><a href="#">Новости</a></li>
-						<li class="col"><a href="#">Технологии</a></li>
-						<li class="col"><a href="#">Партнеры</a></li>
-						<li class="col"><a href="#">Контакты</a></li>
+			<div class="container">
+				<div class="d-flex justify-content-between flex-nowrap">
+					<ul class="row">
+						<li class=""><a href="#">О компании</a> </li>
+						<li class="ml-3"><a href="#">Новости</a></li>
+						<li class="ml-3"><a href="#">Технологии</a></li>
+						<li class="ml-3"><a href="#">Партнеры</a></li>
+						<li class="ml-3"><a href="#">Контакты</a></li>
 					</ul>
-					<ul class="topheader_r col-5 row text-right">
-						<li class="topheader_mail col-4 ml-5"><a href="info@ao-globus.ru">info@ao-globus.ru</a></li>
-						<li class="topheader_phone col-4"> <a href="88005555555">8 800 555-55-55</a></li>
-						<li><a class="active_lng col-4" href="#">RU</a><span><a href="#">EN</a></span></li>
+					<ul class="row">
+						<li class="topheader_mail "><a href="info@ao-globus.ru">info@ao-globus.ru</a></li>
+						<li class="topheader_phone  ml-4"> <a href="88005555555">8 800 555-55-55</a></li>
+						<li><a class="active_lng ml-4" href="#">RU</a><span class="ml-2"><a href="#">EN</a></span></li>
 					</ul>
 				</div>
 			</div>
@@ -172,7 +173,8 @@
 </div>
 </div>
 <hr class="adaptation_none">
-</header>
+
+
 <div class="container-fluid adaptation_block">
 	<div class="row">
 		<div class="navbar-container">
@@ -195,8 +197,8 @@
 						<img class="col-3 mt-1" src="img/user.svg" height="26">
 						
 						<button style="border:none; background: #fff;" type="button" data-toggle="modal" data-target="#exampleModal">
-						<a class="col-8 ml-1 user_bm" href="#">Личный кабинет</a>
-					</button>
+							<a class="col-8 ml-1 user_bm" href="#">Личный кабинет</a>
+						</button>
 					</li>
 					<hr>
 					<li class="nav-item row">
@@ -274,58 +276,100 @@
 </div>
 
 </div>
-
-<div class="container">
-	<div class="l_tegs">
-		<span><a href="index.html">Главная</a></span>
-		<span>></span>
-		<span><a href="#">Чертежные принадлежности</a></span>
-		<span>></span>
-		<span><a href="#">Скрепки канцелярские гладкие 22 мм. по 100 шт.</a></span>
-	</div>
-	<div class="about_title text-body mt-3 mb-3">Скрепки канцелярские гладкие 22 мм. по 100 шт</div>
-	<div class="d-flex justify-content-between">
-		<div class="productpage_preview">
-			<div class="simprod_item_status d-flex justify-content-betwee">
-				<div class="simprod_item_hit ">Хит</div>
-				<div class="simprod_item_new ">Новинка</div>
+</header>
+<!-- preview container with slider -->
+<div class="container slider">
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="slider_info">
+					<div class="preview_title">Гладкие скрепки канцелярские</div>
+					<div class="preview_text">Скрепки и кнопки нужны в любом офисе, доме и школе, наши изделия удовлетворят запросы.</div>
+					<a href="#"><div class="preview_btn">Подробнее</div></a>
+				</div>
+				<img class="d-block w-100" src="img/slider/slide1.png">
 			</div>
-			<img src="img/product/product1_big.png" width="657px">
-			<div class="product_photos d-flex justify-content-betwee">
-				<img  src="img/product/product1.png" width="97px">
-				<img class="ml-4" src="img/product/product1.png" width="97px">
-				<img class="ml-4" src="img/product/product1.png" width="97px">
-				<img class="ml-4" src="img/product/product1.png" width="97px">
-				<img class="ml-4" src="img/product/product1.png" width="97px">
+			<div class="carousel-item">
+				<div class="slider_info">
+					<div class="preview_title">Гладкие скрепки канцелярские</div>
+					<div class="preview_text">Скрепки и кнопки нужны в любом офисе, доме и школе, наши изделия удовлетворят запросы.</div>
+					<a href="#"><div class="preview_btn">Подробнее</div></a>
+				</div>
+				<img class="d-block w-100" src="img/slider/slide1.png">
 			</div>
-			<div class="descript_picker d-flex justify-content-betwee mt60 mb-4">
-				<div class="descript_picker_description_title descript_picker_active text-center">Описание</div>
-				<div class="descript_picker_video ml-4">Видео</div>
+			<div class="carousel-item">
+				<div class="slider_info">
+					<div class="preview_title">Гладкие скрепки канцелярские</div>
+					<div class="preview_text">Скрепки и кнопки нужны в любом офисе, доме и школе, наши изделия удовлетворят запросы.</div>
+					<a href="#"><div class="preview_btn">Подробнее</div></a>
+				</div>
+				<img class="d-block w-100" src="img/slider/slide1.png">
 			</div>
-			<div class="descript_picker_description">
-				<p>Более 50 лет Открытое Акционерное Общество «ГЛОБУС » является традиционным производителем и поставщиком широкого ассортимента канцелярских товаров и в первую очередь чертежных инструментов школьного и технического назначения: от самых простых до самых сложных.</p>
-				<p>Более 50 лет Открытое Акционерное Общество «ГЛОБУС » является традиционным производителем и поставщиком широкого ассортимента канцелярских товаров и в первую очередь чертежных инструментов школьного и технического назначения: от самых простых до самых сложных. Более </p>
-				<p>50 лет Открытое Акционерное Общество «ГЛОБУС » является традиционным производителем и поставщиком широкого ассортимента канцелярских товаров и в первую очередь чертежных инструментов школьного и технического назначения: от самых простых до самых сложных.</p>
-			</div>
-		</div>
-		<div class="wrapper" style="height: 100px">
-			<div class="productpage_specs adaptation_none" id="fixed_specs"></div>
 		</div>
 	</div>
 
+	<div class="preview_inner row">
+		<div class="previewbox col">
+			<div class="previewbox_info">
+				<div class="preview_title_box">Гладкие скрепки<br>канцелярские</div>
+				<a href="#"><div class="preview_btn">Подробнее</div></a>
+			</div>
+			<img src="img/previewimg1.png" alt="" class="preview_image">
+		</div>
+		<div class="previewbox col">
+			<div class="previewbox_info">
+				<div class="preview_title_box">Гладкие скрепки<br>канцелярские</div>
+				<a href="#"><div class="preview_btn">Подробнее</div></a>
+			</div>
+			<img src="img/previewimg2.png" alt="" class="preview_image">
+		</div>
+	</div>
 </div>
 
 
-<!-- same prod -->
+<!-- catalog -->
+<div class="container">
+	<div class="d-flex justify-content-between">
+		<div class="line"></div>
+		<span class="preview_title_box text-body mt60 book">Каталог</span>
+		<div class="line"></div>
+	</div>
+	<div class="row db_adapt">
+		<div class="catalogbox col">
+			<img src="img/catalog/catalog_img1.png">
+			<div class="catalogboxtitle">Чертежные принадлежности</div>
+		</div>
+		<div class="catalogbox col">
+			<img src="img/catalog/catalog_img2.png">
+			<div class="catalogboxtitle">Офисные принадлежности</div>
+		</div>
+	</div>
+	<div class="row db_adapt">
+		<div class="catalogbox col">
+			<img src="img/catalog/catalog_img3.png">
+			<div class="catalogboxtitle">Школные принадлежности</div>
+		</div>
+		<div class="catalogbox col">
+			<img src="img/catalog/catalog_img4.png">
+			<div class="catalogboxtitle">Товары для творчества</div>
+		</div>
+	</div>
+</div>
 
-<div class="container ">
+<!-- similar products -->
+<div class="container">
 	<div class="d-flex justify-content-between">
 		<div class="line smallline"></div>
-		<span class="preview_title_box text-body mt60">Похожие товары</span>
+		<span class="preview_title_box text-body mt60 book">Похожие товары</span>
 		<div class="line smallline"></div>
 	</div>
 
-
+	
 	<div class="stringsimprod row">
 
 		<div class="simprod_item col-sm">
@@ -591,36 +635,52 @@
 
 
 
-
-								<!-- catalog -->
+								<!-- news -->	
+								<div class="container news_line_wrapper d-flex justify-content-between">
+									<div class="line"></div>
+									<span class="preview_title_box text-body mt60 book">Новости</span>
+									<div class="line"></div>
+								</div>
 								<div class="container">
-									<div class="d-flex justify-content-between">
-										<div class="line"></div>
-										<span class="preview_title_box text-body mt60">Каталог</span>
-										<div class="line"></div>
-									</div>
-									<div class="row db_adapt">
-										<div class="catalogbox col">
-											<img src="img/catalog/catalog_img1.png">
-											<div class="catalogboxtitle">Чертежные принадлежности</div>
+									<div class="row news_wrapper">
+										<div class="news_item col-3">
+											<img src="img/news/news1.png">
+											<div class="news_title">Новинка производства <br>Цветные стикеры</div>
+											<div class="news_date">12.05.2020</div>
 										</div>
-										<div class="catalogbox col">
-											<img src="img/catalog/catalog_img2.png">
-											<div class="catalogboxtitle">Офисные принадлежности</div>
+										<div class="news_item col-3">
+											<img src="img/news/news2.png">
+											<div class="news_title">Новинка производства <br>Цветные стикеры</div>
+											<div class="news_date">12.05.2020</div>
 										</div>
-									</div>
-									<div class="row db_adapt">
-										<div class="catalogbox col">
-											<img src="img/catalog/catalog_img3.png">
-											<div class="catalogboxtitle">Школные принадлежности</div>
+										<div class="news_item col-3">
+											<img src="img/news/news1.png">
+											<div class="news_title">Новинка производства <br>Цветные стикеры</div>
+											<div class="news_date">12.05.2020</div>
 										</div>
-										<div class="catalogbox col">
-											<img src="img/catalog/catalog_img4.png">
-											<div class="catalogboxtitle">Товары для творчества</div>
+										<div class="news_item col-3">
+											<img src="img/news/news2.png">
+											<div class="news_title">Новинка производства <br>Цветные стикеры</div>
+											<div class="news_date">12.05.2020</div>
 										</div>
 									</div>
 								</div>
 
+								<div class="line w-100"></div>
+
+								<!-- about company -->
+								<div class="container">
+									<div class="row">
+										<div class="aboutcomp_l col-sm-10">
+											<span class="about_title mt60">О компании</span>
+											<p>Более 50 лет Открытое Акционерное Общество «ГЛОБУС » является традиционным производителем и поставщиком широкого ассортимента канцелярских товаров и в первую очередь чертежных инструментов школьного и технического назначения: от самых простых до самых сложных.</p>
+											<p>Качество изготовления инструментов, выбор используемых материалов обеспечивают их длительную эксплуатацию, удобство в работе и экологическую безопасность. Наряду с постоянным расширением ассортимента и функциональных назначений чертежных наборов, большое внимание уделяется освоению производства новых видов канцелярских товаров, находящих успех у покупателей.</p>
+										</div>
+										<div class="aboutcomp_r col-sm-2 adaptation_none">
+											<img src="img/madeinr.svg" alt="">
+										</div>
+									</div>
+								</div>
 
 								<!-- footer -->
 								<footer>
@@ -686,7 +746,7 @@
 								<script src="js/main.js"></script>
 
 
-
+								
 							</div>
 
 						</body>
