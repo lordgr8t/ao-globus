@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="kans.u0515999.isp.regruhosting.ru" uuid="96c979eb-a093-4584-b8af-dcb475b9c566">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://kans.u0515999.isp.regruhosting.ru:3306/u0515999_kans</jdbc-url>
+    </data-source>
+  </component>
+</project>
