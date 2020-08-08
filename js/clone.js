@@ -17,3 +17,7 @@ $(".basket_item").clone().appendTo(".basket_container");
 
 $(".news_item").clone().appendTo(".news_wrapper_newspage");
 $(".news_item").clone().appendTo(".news_wrapper_newspage");
+
+$(".history_item").clone().appendTo(".history_items");
+$(".history_item").clone().appendTo(".history_items");
+
