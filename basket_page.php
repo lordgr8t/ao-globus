@@ -30,14 +30,14 @@
 	<!-- basket -->
 
 	<div class="container">
-		<div class="l_tegs mt-2 mb-4">
+		<div class="l_tegs" style="margin:18px 0 30px 0; ">
 			<span><a href="index.html">Главная</a></span>
 			<span class="ml-1 mr-1">></span>
 			<span><a href="#">Корзина</a></span>
 		</div>
 		<div class="row">
 			<div class="col-9 colfix">
-				<div class="about_title text-body mt-3 mb-4">Корзина</div>
+				<div class="about_title text-body mb-4">Корзина</div>
 				<div class="basket_container_title mb-3">Скрепки</div>
 				<div class="basket_container">
 					<div class="basket_item row">

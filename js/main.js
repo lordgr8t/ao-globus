@@ -138,19 +138,28 @@ inputRight.addEventListener("mouseup", function() {
 
 document.querySelector('#opencatalog').addEventListener('click', function(){
 	document.querySelector('#catalog_full').style.display = "block";
+	document.querySelector('.closeit').style.display = "none";
+	document.querySelector('.footer_close').style.display = "none";
+	
 });
 document.querySelector('#close_catalogfull').addEventListener('click', function(){
 	document.querySelector('#catalog_full').style.display = "none";
+	document.querySelector('.closeit').style.display = "block";
+	document.querySelector('.footer_close').style.display = "block";
 });
 
 
 
 document.querySelector('#openfilters').addEventListener('click', function(){
 	document.querySelector('#filters_full').style.display = "block";
+	document.querySelector('.closeit').style.display = "none";
+	document.querySelector('.footer_close').style.display = "none";
 });
 
 document.querySelector('#close_filters_full').addEventListener('click', function(){
 	document.querySelector('#filters_full').style.display = "none";
+	document.querySelector('.closeit').style.display = "block";
+	document.querySelector('.footer_close').style.display = "block";
 });
 
 

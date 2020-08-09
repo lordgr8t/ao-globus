@@ -15,14 +15,14 @@
 		margin-top: 0;
 	}
 	header .nav-link {
-	height: 105% !important;
-	font-family: Intro Book;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px !important;
-	line-height: 14px;
-	color: #333333;
-}
+		height: 105% !important;
+		font-family: Intro Book;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px !important;
+		line-height: 14px;
+		color: #333333;
+	}
 
 }
 
@@ -369,7 +369,18 @@
 	.basket_order{
 		display: none !important;
 	}
-
+	.about_title{
+		font-size: 16px;
+		margin-bottom: 10px !important;
+	}
+	.line{
+		margin-bottom: 30px;
+		width: 27% !important;
+	}
+	.stylemorenews{
+		font-size: 16px !important;
+		padding-top: 3px;
+	}
 }
 
 @media (max-width: 576px) {
