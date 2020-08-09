@@ -32,13 +32,13 @@
 	<!-- CATALOG grid PAGE -->
 
 	<div class="container">
-		<div class="l_tegs mt-2">
+		<div class="l_tegs mt-3">
 			<span><a href="index.html">Главная</a></span>
 			<span>></span>
 			<span><a href="#">Офисные пренодлежности</a></span>
 		</div>
 		<div class="d-flex justify-content-between">
-			<div class="about_title text-body mt-3">Офисные пренодлежности</div>
+			<div class="about_title text-body mt-3 mb-5">Офисные пренодлежности</div>
 			<div class="d-flex justify-content-between">
 				<img class="mr-2 adaptation_none listpick" src="img/list_active.svg">
 				<img class="adaptation_none gridpick" src="img/grid_active.svg" >
@@ -231,22 +231,22 @@
 					<div class="product_filters_parameters  mb-4">
 						<div class="dropdown-menu_test">
 							<ul class="main-item">
-								<li class="item_test">
+								<li class="item_test pt-2 pb-2">
 									<span>Длина</span>
 									<i class="fa fa-angle-up" aria-hidden="true"></i>
 									<ul class="submain none">
 										<li class="subitem">
-											<p><input type="checkbox" checked value="Idc">N</p>
+											<p><input class="mr-2" type="checkbox" checked value="Idc">N</p>
 										</li>
 										<li class="subitem">
-											<p><input type="checkbox"  value="">N</p>
+											<p><input class="mr-2" type="checkbox"  value="">N</p>
 										</li>
 										<li class="subitem">
-											<p><input type="checkbox"  value="">N</p>
+											<p><input class="mr-2" type="checkbox"  value="">N</p>
 										</li>
 									</ul>
 								</li>
-								<li class="item_test">
+								<li class="item_test pt-2 pb-2">
 									<span>Цена</span>
 									<i class="fa fa-angle-up" aria-hidden="true"></i>
 									<ul class="submain none">
@@ -272,33 +272,33 @@
 										</li>
 									</ul>
 								</li>
-								<li class="item_test">
+								<li class="item_test pt-2 pb-2">
 									<span>Толщина</span>
 									<i class="fa fa-angle-up" aria-hidden="true"></i>
 									<ul class="submain none">
 										<li class="subitem">
-											<p><input type="checkbox" checked value="Idc">N</p>
+											<p><input class="mr-2" type="checkbox" checked value="Idc">N</p>
 										</li>
 										<li class="subitem">
-											<p><input type="checkbox"  value="">N</p>
+											<p><input class="mr-2" type="checkbox"  value="">N</p>
 										</li>
 										<li class="subitem mb-4">
-											<p><input type="checkbox"  value="">N</p>
+											<p><input class="mr-2" type="checkbox"  value="">N</p>
 										</li>
 									</ul>
 								</li>
-								<li class="item_test">
+								<li class="item_test pt-2 pb-2">
 									<span>Количество в упаковке</span>
 									<i class="fa fa-angle-up" aria-hidden="true"></i>
 									<ul class="submain none">
 										<li class="subitem">
-											<p><input type="checkbox" checked value="Idc">200</p>
+											<p><input class="mr-2" type="checkbox" checked value="Idc">200</p>
 										</li>
 										<li class="subitem">
-											<p><input type="checkbox"  value="">300</p>
+											<p><input class="mr-2" type="checkbox"  value="">300</p>
 										</li>
 										<li class="subitem mb-4">
-											<p><input type="checkbox"  value="">400</p>
+											<p><input class="mr-2" type="checkbox"  value="">400</p>
 										</li>
 									</ul>
 								</li>
@@ -310,7 +310,7 @@
 				<div class="product_filters_categories">
 					<div class="dropdown-menu_test">
 						<ul class="main-item">
-							<li class="item_test">
+							<li class="item_test pt-2 pb-2">
 								<span>Чертежные принадлежности</span>
 								<i class="fa fa-angle-up" aria-hidden="true"></i>
 								<ul class="submain none">
@@ -326,7 +326,7 @@
 
 								</ul>
 							</li>
-							<li class="item_test">
+							<li class="item_test pt-2 pb-2">
 								<span>Офисные принадлежности</span>
 								<i class="fa fa-angle-up" aria-hidden="true"></i>
 								<ul class="submain none">
@@ -359,7 +359,7 @@
 									</li>
 								</ul>
 							</li>
-							<li class="item_test">
+							<li class="item_test pt-2 pb-2">
 								<span>Школьные принадлежности</span>
 								<i class="fa fa-angle-up" aria-hidden="true"></i>
 								<ul class="submain none">
@@ -375,7 +375,7 @@
 
 								</ul>
 							</li>
-							<li class="item_test">
+							<li class="item_test pt-2 pb-2">
 								<span>Товары для творчества</span>
 								<i class="fa fa-angle-up" aria-hidden="true"></i>
 								<ul class="submain none">
