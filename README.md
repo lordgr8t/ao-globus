@@ -1,2 +1,2 @@
 # ao-globus
-[https://ao-globus.ru/](link)
+[link](https://ao-globus.ru/)
